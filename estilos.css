@@ -2,21 +2,17 @@ body {
     background: gray;
   }
   
-  h2 {
+h2 {
     clear: both;
     margin-bottom: 0.5em;
     padding-top: 1em;
   }
   
-  ul {
+ul {
     list-style-type: none;
   }
   
-  ul.lista0 {
-    list-style-type: disc;
-  }
-  
-  ul.lista1 li {
+ul.llista1 li {
     float:left;
     width: 10em;
     border: 5px dashed purple;
@@ -28,11 +24,11 @@ body {
     text-align: center;
   }
   
-  ul.lista2 {
+ul.llista2 {
     text-align: center;
   }
   
-  ul.lista2 li {
+ul.llista2 li {
     display: inline;
     border: white 2px solid;
     border-color: white black black white;
@@ -41,20 +37,20 @@ body {
     background-color: white;
   }
   
-  ul.lista2 li:hover {
+ul.llista2 li:hover {
     border: white 2px solid;
     border-color: black white white black;
     background-color: gray;
   }
   
-  ul.lista3 {
+ul.llista3 {
     width: 11em;
     border: black 1px solid;
     padding: 0.5em;
     text-align: center;
   }
   
-  ul.lista3 li {
+ul.llista3 li {
     width: 9em;
     border: black 1px solid;
     margin: 0.5em 0 0.5em 0.5em;
@@ -63,11 +59,11 @@ body {
     text-align: center;
   }
   
-  ul.lista4 {
+ul.llista4 {
     text-align: center;
   }
   
-  ul.lista4 li {
+ul.llista4 li {
     display: inline-block;
     width: 10em;
     margin: 0;
@@ -77,12 +73,12 @@ body {
     font-weight: bold;
   }
   
-  ul.lista4 li.par {
+ul.llista4 li.blanquiazul {
     background-color: blue;
     color: white;
   }
   
-  ul.lista5 li {
+ul.llista5 li {
     float:left;
     margin-right: 2em;
   }
